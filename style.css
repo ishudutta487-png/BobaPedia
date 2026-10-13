@@ -1,0 +1,53 @@
+/* Import a large, Citadel-style font for the main title */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+body {
+    background-color: rgb(254, 254, 176);
+    font-family: sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* 1. Nice big font for BobaPedia */
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* 2. Outline for colored text to make it readable */
+.outlined-text {
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 2px 2px 0px rgba(251, 250, 247, 0.8);
+}
+
+/* 3. Alternating Layout Container */
+.topic-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic-row {
+    display: flex;
+    align-items: center; /* Centers image vertically with text */
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+/* Reverses the alignment for every even row (2nd, 4th, 6th...) */
+.topic-row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.topic-text {
+    flex: 1; /* Allows text to take up the remaining space */
+}
+
+.topic-image {
+    width: 220px; /* Locks the sticker/image size */
+    height: auto;
+    flex-shrink: 0;
+}
