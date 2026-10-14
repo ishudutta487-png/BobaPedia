@@ -10,3 +10,5 @@ What your choice of boba drink reveals about your personality.
 1. Get a copy of this repository or download it.
 2. Make sure that index.html, style.css, and all the image assets are in the same folder.
 3. You should open index.html in any modern web browser by double-clicking on it.
+
+**Check it out** **-** https://ishudutta487-png.github.io/BobaPedia/
