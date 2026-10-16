@@ -5,6 +5,7 @@ BobaPedia is a one-page, minimalist web project which explains aspects of bubble
 * **The Starter Pack:** It ensures that first-time users have winning outcomes so that they won't end up with a bitter herbal mush by accident.
 * Tactical Drinking: learn the 45° Harpoon Stab, the 3:1 Slurp Ratio, and the Anti-Ice Wall Twist.
 What your choice of boba drink reveals about your personality.
+
 Change 1 - Removed AI Generated CSS code. 
 1. Get a copy of this repository or download it.
 2. Make sure that index.html, style.css, and all the image assets are in the same folder.
