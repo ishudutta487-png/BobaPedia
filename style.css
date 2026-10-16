@@ -1,53 +1,55 @@
-/* Import a large, Citadel-style font for the main title */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
-
-body {
-    background-color: rgb(254, 254, 176);
-    font-family: sans-serif;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    line-height: 1.5;
-}
-
-/* 1. Nice big font for BobaPedia */
-h1 {
-    font-family: 'Cinzel', serif;
-    font-size: 4.5rem;
+/* CSS Document 
+Rewrote the whole CSS code by myself and removed the AI fluff and something I never know about. I also added a new font called "Pixelify Sans" to make the questions bold and more readable.
+At first I didn't write by myself because I was unfamiliar and lazy with CSS code, but now I am more familiar with it and I can write it by myself. But yea, The Whole HTML Code was written by me itself and the logic there.
+Learnt about
+circle images
+classes
+border spaces
+alignment
+sizing
+adding css code in html tags itself
+background color adding
+and yea one of the best feature I learnt about was clear: both property which forces an element to drop completely below any floating elements.
+I can confidently say that I have learnt the foundation of CSS now and I can write my own CSS code without any help from AI. I will continue to learn more about CSS and I will be able to write more complex CSS code in the future.
+*/
+h1{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 5em;
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.circle-imageright{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 20px;
+    object-fit: cover;
 }
 
-/* 2. Outline for colored text to make it readable */
-.outlined-text {
-    -webkit-text-stroke: 1.5px black;
-    text-shadow: 2px 2px 0px rgba(251, 250, 247, 0.8);
+.circle-imageleft{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    object-fit: cover;
 }
 
-/* 3. Alternating Layout Container */
-.topic-container {
-    display: flex;
-    flex-direction: column;
+h2, h3 {
+    clear: both; 
+    margin-top: 30px;
 }
-
-.topic-row {
-    display: flex;
-    align-items: center; /* Centers image vertically with text */
-    gap: 30px;
-    margin-bottom: 25px;
+.bold-question{
+    
+    font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  float: left;
+  margin-right: 10px;
 }
-
-/* Reverses the alignment for every even row (2nd, 4th, 6th...) */
-.topic-row:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-.topic-text {
-    flex: 1; /* Allows text to take up the remaining space */
-}
-
-.topic-image {
-    width: 220px; /* Locks the sticker/image size */
-    height: auto;
-    flex-shrink: 0;
+body{
+    background-color: #e1992d;
 }
