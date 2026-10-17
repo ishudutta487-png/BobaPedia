@@ -13,3 +13,4 @@ Change 1 - Removed AI Generated CSS code.
 
 **Check it out** **-** https://ishudutta487-png.github.io/BobaPedia/
 
+<img width="1893" height="650" alt="image" src="https://github.com/user-attachments/assets/93b68282-1def-42b7-9a05-2ecbd12a65ad" />
