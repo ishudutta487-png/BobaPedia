@@ -6,6 +6,7 @@ BobaPedia is a one-page, minimalist web project which explains aspects of bubble
 * **Tactical Drinking:** learn the 45° Harpoon Stab, the 3:1 Slurp Ratio, and the Anti-Ice Wall Twist.
 * **Psychology Of Boba Flavours:** What your choice of boba drink reveals about your personality.
 * **Engineering Solutions for a BETTER Boba:** I came up with 3 effective solutions to make Boba a better drink by a little upgrade.
+* 
 Change 1 - Removed AI Generated CSS code.
 Change 2 - Turned it into Dark theme to reduce eye strain
 
