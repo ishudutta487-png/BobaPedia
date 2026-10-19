@@ -8,6 +8,7 @@ BobaPedia is a one-page, minimalist web project which explains aspects of bubble
 * **Engineering Solutions for a BETTER Boba:** I came up with 3 effective solutions to make Boba a better drink by a little upgrade.
 * 
 Change 1 - Removed AI Generated CSS code.
+
 Change 2 - Turned it into Dark theme to reduce eye strain
 
 **Check it out** **-** https://ishudutta487-png.github.io/BobaPedia/
